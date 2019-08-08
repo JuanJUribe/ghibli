@@ -8,14 +8,14 @@
     <h1>The Studio Ghibli Experience</h1>
     <section>
       <h2>Search</h2>
-      Filter:
-      <form>
+      <form method='post' action='/search'>
+        Filter:
         <select>
           <option>Film</option>
           <option>Person</option>
         </select>
+        <div><input type="query" name=""></div>
+        <div><input type="submit" value='GO!'></div>
       </form>
-      <div><input type="query" name=""></div>
-      <div><input type="submit" value='GO!'></div>
   </body>
 </html>
