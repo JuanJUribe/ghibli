@@ -5,6 +5,8 @@
     <title></title>
   </head>
   <body>
-    The search is here
+    {% for result in response %}
+      <div class='result'>{{ result }}</div>
+    {% endfor %}
   </body>
 </html>

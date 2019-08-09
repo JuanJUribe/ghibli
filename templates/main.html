@@ -10,11 +10,12 @@
       <h2>Search</h2>
       <form method='post' action='/search'>
         Filter:
-        <select>
-          <option>Film</option>
-          <option>Person</option>
+        <select name='filter'>
+          <option value='films'>Film</option>
+          <option value='people'>Person</option>
+          <option value='locations'>Location</option>
+          <option value='vehicles'>Vehicle</option>
         </select>
-        <div><input type="query" name=""></div>
         <div><input type="submit" value='GO!'></div>
       </form>
   </body>
